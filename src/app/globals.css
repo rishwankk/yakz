@@ -8,14 +8,9 @@
   }
 
   html, body {
-    max-width: 100vw;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  body {
-    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   a {
