@@ -219,7 +219,7 @@ export default function AnalyticsDashboard() {
                     ))}
                   </Pie>
                   <RechartsTooltip 
-                    formatter={(value: number) => [`₹${value.toFixed(0)}`, 'Revenue']}
+                    formatter={(value: any) => [`₹${Number(value).toFixed(0)}`, 'Revenue']}
                     contentStyle={{ borderRadius: '16px', border: 'none', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.1)' }}
                   />
                   <Legend verticalAlign="middle" align="right" layout="vertical" wrapperStyle={{ fontWeight: '600', color: '#4B5563' }} />
