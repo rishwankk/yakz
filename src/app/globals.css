@@ -5,7 +5,8 @@
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;
-  --primary: #f97316; /* Orange for food */
+  --primary: #f97316;
+  /* Orange for food */
   --primary-hover: #ea580c;
   --surface: #ffffff;
   --border: #e2e8f0;
@@ -44,7 +45,8 @@ body {
 
 /* App-like behavior for PWA */
 body {
-  overscroll-behavior-y: none; /* Prevents pull-to-refresh on mobile if we want an app feel */
+  overscroll-behavior-y: none;
+  /* Prevents pull-to-refresh on mobile if we want an app feel */
 }
 
 a {
@@ -130,17 +132,55 @@ button {
   justify-content: space-between;
 }
 
-.text-2xl { font-size: 1.5rem; line-height: 2rem; }
-.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
-.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
-.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
-.text-xs { font-size: 0.75rem; line-height: 1rem; }
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 
-.font-bold { font-weight: 700; }
-.font-semibold { font-weight: 600; }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 
-.mt-4 { margin-top: 1rem; }
-.mt-2 { margin-top: 0.5rem; }
-.mb-4 { margin-bottom: 1rem; }
-.gap-2 { gap: 0.5rem; }
-.gap-4 { gap: 1rem; }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
